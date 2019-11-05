@@ -1,6 +1,6 @@
-import 'dotenv/config';
+require('dotenv').config();
 
-export default {
+module.exports = {
 	// If using onine database
 	// development: {
 	//   use_env_variable: 'DATABASE_URL'
